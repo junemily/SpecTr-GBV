@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the SpecTr-GBV paper."
+title: "SpecTr-GBV"
+version: 1.0.0
+date-released: 2026-10-03
+url: "https://arxiv.org/abs/2604.25925"
+authors:
+  - family-names: Lin
+    given-names: Yijun
+  - family-names: Sheng
+    given-names: Jinhao
+  - family-names: Cai
+    given-names: Qingyue
+  - family-names: Zhou
+    given-names: Feng
+preferred-citation:
+  type: article
+  title: "SpecTr-GBV: Multi-Draft Block Verification Accelerating Speculative Decoding"
+  authors:
+    - family-names: Lin
+      given-names: Yijun
+    - family-names: Sheng
+      given-names: Jinhao
+    - family-names: Cai
+      given-names: Qingyue
+    - family-names: Zhou
+      given-names: Feng
+  year: 2026
+  url: "https://arxiv.org/abs/2604.25925"
