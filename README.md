@@ -86,18 +86,6 @@ python baselines/mcsd/eval_humaneval_fair.py \
   --temperature 0.7 --fp16 --seed 1001
 ```
 
-## Reported HumanEval results
-
-The following values are the reported results for the first 32 HumanEval prompts with `max_new_tokens=64`, temperature `0.7`, `top_p=1.0`, fp16, and a single H20 GPU. Throughput is hardware dependent.
-
-| Method | Config | 68M → 7B | 68M → 13B | 160M → 7B | 160M → 13B |
-|---|---|---:|---:|---:|---:|
-| GBV | K=1, L=6 | 44.16 / 1.53 | 38.28 / 1.64 | 24.88 / 1.60 | 23.41 / 1.68 |
-| MCSD | [4,2,2] | 42.76 / 1.62 | 26.27 / 1.61 | 29.97 / 1.64 | 21.75 / 1.71 |
-| **SpecTr-GBV** | **K=7, L=6** | **68.77 / 3.17** | **53.05 / 3.28** | **42.68 / 3.54** | **34.93 / 3.36** |
-
-Each entry is **tokens/s / block efficiency**, where block efficiency is generated tokens divided by target-model verification steps.
-
 ## Citation
 
 SpecTr-GBV was accepted to the EMNLP 2026 Main Conference. The preprint is available on [arXiv](https://arxiv.org/abs/2604.25925).
